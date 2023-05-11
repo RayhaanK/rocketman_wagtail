@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0,0,0,.9);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
+
+.logo {
+    cursor: pointer;
+
+}
+
+.nav-links, li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 40px ;
+
+}
+
+.nav-links li a {
+    transition: all 0.2s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+
+}
+
+.surpreme{
+    background-image: linear-gradient(180deg, 
+    rgba(0,0,0,0.3) 0%,
+    rgba(0,0,0,0.8) 100%), 
+    url("https://images.unsplash.com/photo-1517976487492-5750f3195933?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");  
+    background-size: cover; 
+    background-position: 50%;
+    height: 700px;
+   
+}
+
+.main-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 32px;
+}
+
+.main-column h1 {
+    min-width: 300px;
+    max-width: 507px;
+    margin-top: 220px;
+    margin-left: 80px;
+    font-family: "Anuphan", sans-serif;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.text {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.button {
+    border:0 solid transparent;
+    margin-top: 60px;
+    margin-left: 80px;
+    padding: 8px 32px;
+    display: inline-block;
+    background-color: white;
+    letter-spacing: 2px;
+
+}
